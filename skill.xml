@@ -15,8 +15,6 @@
             <output value="Не вешай нос!"/>
             </input>
         </context>
-    </input>
-</context>
             <input pattern="* что такое * Машинное обучение* ">
                 <output value="Машинное обучение это обшырный подраздел искусственного интелекта, изучающий методы построения алгоритмов, способных обучаться"/>
             </input>
@@ -35,5 +33,7 @@
       <input pattern=" *До скорой встречи, Ника* ">
 	<var name="tts" value="Пок+асики"/>
 	<output value= "Пока"/>
+            </input>
+        </context>
     </input>
 </context>
