@@ -4,21 +4,13 @@
     </input>
     <input pattern="* как * дела*">
         <output value="Хорошо! А Ваши?"/>
-        <context modal="true">
+         </input>
               <input pattern="* (хорош*|отличн*|прекрасн*)* расскажи про роботов*">
                 <output>
                     <item value="Это просто! "/>
                     <item value="Миром будут править роботы! "/>
                 </output>
-            </input>
-	   <input pattern="* (плох*|не очень|так себе) *">
-            <output value="Не вешай нос!"/>
-           </input>
-        </context>
-    </input>
-</context>
-
-<context>
+             </input>
             <input pattern="* что такое * Машинное обучение* ">
                 <output value="Машинное обучение это обшырный подраздел искусственного интелекта, изучающий методы построения алгоритмов, способных обучаться"/>
             </input>
