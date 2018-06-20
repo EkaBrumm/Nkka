@@ -29,7 +29,6 @@
       <input pattern=" *До скорой встречи, Ника* ">
 	<var name="tts" value="Пок+асики"/>
 	<output value= "Пока"/>
+	       </output>
             </input>
         </context>
-    </input>
-</context>
